@@ -15,13 +15,23 @@
     position:absolute;
     bottom: 50%;
     left: 0; right: 0;
-    font-size: 30px;
+    font-size: 50px;
 }
 
 .show{
     display: block;
     transition: 800ms;
     opacity: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.none{
+    display:none;
 }
 
 .show.active{

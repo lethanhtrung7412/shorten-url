@@ -47,6 +47,8 @@ function App() {
     setIsShowResult((isShowResult) => !isShowResult);
   }
 
+  console.log(isShowResult);
+
   return (
     <div className="App">
       <h1>Want to shorten your link, you come to the right place</h1>

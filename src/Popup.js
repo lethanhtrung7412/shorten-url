@@ -3,7 +3,7 @@ import "./Popup.css";
 
 const Popup = (props) => {
   return (
-    <div className={`${props.isShowResult ? "active" : ""} show`}>
+    <div className={`show ${props.isShowResult ? "" : "active"} `}>
       <div className="form-box">
         <h2>Your link after shorten</h2>
         <h3>{props.returnUrl}</h3>

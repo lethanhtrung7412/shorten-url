@@ -1,0 +1,53 @@
+.form-box {
+    margin-top: 7vh;
+    opacity: 80%;
+    background: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 1px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    height: 80%;
+    position: relative;
+}
+
+.form-box>h3{
+    position:absolute;
+    bottom: 50%;
+    left: 0; right: 0;
+    font-size: 30px;
+}
+
+.show{
+    display: block;
+    transition: 800ms;
+    opacity: 1;
+}
+
+.show.active{
+    transform: translateY(100px) scale(0) rotateY(180deg);
+    opacity: 0.4;
+}
+
+.btn-close {
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        right: 0;
+        margin-top: 15px;
+        padding: 10px;
+        border-radius: 5px;
+        font-size: 16px;
+        transition: background-color 0.5s ease-out 100ms;
+        background-color: #2ed5ff;
+        color: white;
+        border: none;
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.btn:hover {
+    background-color: white;
+    color: #222;
+}

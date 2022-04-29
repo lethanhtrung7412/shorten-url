@@ -29,14 +29,14 @@ form>label>.input:focus{
 }
 
 form>.btn{
-  margin-top: 15px;
+  margin-top: 30px;
   padding: 10px;
   border-radius: 5px;
   font-size: 16px;
-  transition: background-color 0.5s ease-out 100ms;
-  background-color: #2ed5ff;
+  border: 2px solid #2ed5ff;
+  background: transparent;
+  transition: background-color 0.25s ease-out 100ms;
   color: white;
-  border: none;
 }
 
 form>.btn:hover{
